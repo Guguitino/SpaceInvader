@@ -2,6 +2,7 @@
 
 #include <stdint.h>
 #include <Windows.h>
+#include <consoleapi2.h> 
 
 #define internal static
 #define local_persist static

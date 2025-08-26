@@ -12,7 +12,7 @@ internal void RenderWeirdGradient(game_offscreen_buffer *Buffer)
             if(X == 0)
             {
                 PixelChar->UnicodeChar = (unsigned short)(48+(Y%10));
-                PixelChar->Attributes = BACKGROUND_RED;
+                PixelChar->Attributes = BACKGROUND_RED; // coucou :)
             }
             else if((X+Y) % 2 == 0)
             {
