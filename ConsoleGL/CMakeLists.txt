@@ -1,0 +1,1 @@
+add_library(ConsoleGL STATIC ConsoleGL.cxx testmysqrt.cxx)
